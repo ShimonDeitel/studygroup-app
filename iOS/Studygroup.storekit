@@ -1,0 +1,42 @@
+{
+  "identifier": "storekit_config",
+  "nonRenewingSubscriptions": [],
+  "products": [],
+  "settings": {
+    "_locale": "en_US"
+  },
+  "subscriptionGroups": [
+    {
+      "id": "SUBGROUP1",
+      "localizations": [],
+      "name": "Studygroup Pro",
+      "subscriptions": [
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "1.99",
+          "familyShareable": false,
+          "groupNumber": 1,
+          "internalID": "SUB1",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "description": "Set recurring meetup reminders and export your topic history.",
+              "displayName": "Recurring Reminders",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.shimondeitel.studygroup.pro.monthly",
+          "recurringSubscriptionPeriod": "P1M",
+          "referenceName": "Studygroup Pro Monthly",
+          "subscriptionGroupID": "SUBGROUP1",
+          "type": "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}
